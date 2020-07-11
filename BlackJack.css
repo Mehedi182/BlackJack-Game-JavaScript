@@ -1,0 +1,86 @@
+.btn{
+	color: white;
+	
+	padding: 10px;
+	text-align: center;
+	font-size: 16px; 
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-primary{
+	background-color: blue;
+}
+.btn-primary:hover{background-color: darkblue}
+.btn-danger{
+	background-color: red;
+}
+.btn-danger:hover{background-color: darkred}
+
+.btn-success{
+	background-color: green;
+}
+.btn-success:hover{background-color: darkgreen}
+.btn-worn{
+	background-color:orange;
+	font-style: bold;
+}
+.btn-worn:hover{background-color: #DFCA41}
+
+
+.container{
+	border:5px solid red;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	/*background-color: orange;*/
+}
+.blackjack-row-1,.blackjack-row-2,.blackjack-row-3{
+	border:4px solid red;
+	border-right:none;
+	border-left: none;
+	border-bottom: none;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;/*default*/
+	flex-wrap: wrap;
+
+}
+.blackjack-row-1{
+	background-color: black;
+
+}
+.blackjack-row-1 div{
+	border: 1px solid black;
+	padding: 10px;
+	height: 400px;
+	text-align: center;
+	flex:1;/*takes equal amount place in div*/
+	border-radius: 5px;
+	background-color: #2E500A;
+	color: white;
+}
+.blackjack-row-1 img{
+	width:20%;
+	padding: 10px;
+	height: 160px;	
+}
+.blackjack-row-2 div{
+	border: 1px solid black;
+	text-align: center;
+	padding: 15px;
+	background-color: #2E500A;
+
+
+}
+ button{
+	border: 1px solid black;
+	padding: 10px;
+}
+table{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+
+}
