@@ -1,2 +1,2 @@
 # JavaScript
-This repository is for JavaScript Project  
+A BlackJack Game by JS
